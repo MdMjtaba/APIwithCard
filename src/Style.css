@@ -1,0 +1,39 @@
+.bg{
+    background-color: rgba(110, 132, 133, 0.801);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .profilepic{
+      height: 130px;
+      width: 130px;
+      border-radius: 50%;
+      margin-top: -20%;
+    margin-left: 31%;
+  }
+
+  .fcolor{
+      color: #000000;
+      text-align: center;
+  }
+
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    min-width: 0;
+    flex-wrap: wrap;
+    /* word-wrap: break-word; */
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    height: 400px;
+    width: 300px;
+    box-shadow: 10px 5px 5px black;
+    margin-top: 18%;
+  }
